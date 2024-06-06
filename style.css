@@ -19,6 +19,7 @@ h1, h2 {
 .input-section label {
     font-weight: bold;
     margin-bottom: 5px;
+    
 }
 
 .input-section input[type="number"],
@@ -26,8 +27,8 @@ h1, h2 {
 .input-section button {
     padding: 5px 10px;
     margin: 5px 0;
-    background-color: rgb(66, 153, 144);
-    color: white;
+    background-color:  rgb(165, 211, 222);
+    color: rgb(10, 9, 9);
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -93,4 +94,7 @@ tfoot td {
         margin-left: 10px;
         align-self: flex-start;
     }
+}
+#category-select{
+    background-color: rgb(165, 211, 222);
 }
